@@ -13,7 +13,6 @@ export default function Home() {
     <Content2/>
     <Marquee/>
     <Footer/>
-    
     </>
   );
 }
