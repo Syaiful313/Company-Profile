@@ -115,57 +115,6 @@ const page = () => {
         </div>
 
         <Marquee />
-        {/* <section>
-          <div className="mx-4 my-10 max-w-7xl px-4 text-white sm:px-6 md:mx-40 lg:px-8">
-            <div className="flex items-center justify-center">
-              <div className="w-full max-w-5xl text-white">
-                <h2 className="mb-10 text-center text-3xl font-bold md:text-5xl">
-                  Meet the Team
-                </h2>
-
-                <div className="team-grid grid grid-cols-3 gap-6 text-white md:mt-36">
-                  {teamMembers.slice(0, 3).map((member, index) => (
-                    <div
-                      key={index}
-                      className="team-member rounded-md bg-[#2a2a2a] p-4"
-                    >
-                      <Image
-                        className="mx-auto mb-4 rounded-full grayscale filter"
-                        src={member.picture.large}
-                        alt={${member.name.first} ${member.name.last}}
-                        width={128}
-                        height={128}
-                        objectFit="cover"
-                      />
-                      <h2 className="text-center text-xl font-semibold">{${member.name.first} ${member.name.last}}</h2>
-                      <p className="text-center">{customDescriptions[index]}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="team-grid mt-6 grid grid-cols-2 gap-6 text-white">
-                  {teamMembers.slice(3, 5).map((member, index) => (
-                    <div
-                      key={index}
-                      className="team-member rounded-md bg-[#2a2a2a] p-4"
-                    >
-                      <Image
-                        className="mx-auto mb-4 rounded-full grayscale filter"
-                        src={member.picture.large}
-                        alt={${member.name.first} ${member.name.last}}
-                        width={128}
-                        height={128}
-                        objectFit="cover"
-                      />
-                      <h2 className="text-center text-xl font-semibold">{${member.name.first} ${member.name.last}}</h2>
-                      <p className="text-center">{customDescriptions[index]}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         <section className="bg-[#1a1a1a]">
           <div className="teams-page mx-5 min-h-screen max-w-7xl md:mx-auto">
             <h1 className="mb-8 text-4xl text-white md:mt-10 md:text-8xl">
